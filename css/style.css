@@ -28,7 +28,7 @@ body {
 ========================================================================== */
 
 .header-container {
-    background: #1b1b27;
+    background: #26263b;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -386,14 +386,14 @@ footer {
 /* Space out social media links */
 
 .social-media {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
   }
   
   .social-media a {
-    margin: 0 15px; /* Adjust the value to increase/decrease spacing */
+    margin: 0 20px; /* Adjust the value to increase/decrease spacing */
     text-decoration: none;
     color: #333;
-    font-size: 16px; /* Optional: adjust font size */
+    font-size: 25px; /* Optional: adjust font size */
   }
   
   .social-media a:hover {
