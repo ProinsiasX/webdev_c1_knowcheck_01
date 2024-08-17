@@ -48,10 +48,12 @@ body {
 }
 
 .hero-container {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-content: center;
     background: url('https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?cs=srgb&dl=pexels-luis-gomes-546819.jpg&fm=jpg') center center no-repeat;
     background-size: cover;
-    height: 80vh;
+    height: 100vh;
     padding: 0;
     margin: 0;
 }
@@ -178,9 +180,9 @@ a:hover, a:active {
     border: 2px solid #333333;
 }
 .hero-content .btn:hover, .hero-content .btn:active {
-    background: #333333;
+    background: #74b44a;
     color: #F1F1F1;
-    border: 2px solid #666666;
+    border: 2px solid #74b44a;  /* question 3 color change /*
 }
 
 .btn, .btn:visited  {
@@ -380,3 +382,21 @@ footer {
 	p, h2, h3 { orphans: 3; widows: 3; }
 	h2, h3{ page-break-after: avoid; }
 }
+
+/* Space out social media links */
+
+.social-media {
+    margin-bottom: 20px;
+  }
+  
+  .social-media a {
+    margin: 0 15px; /* Adjust the value to increase/decrease spacing */
+    text-decoration: none;
+    color: #333;
+    font-size: 16px; /* Optional: adjust font size */
+  }
+  
+  .social-media a:hover {
+    color: #74b44a; /* Optional: change color on hover */
+  }
+  
